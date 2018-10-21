@@ -1,5 +1,5 @@
 {
-  "name": "node-deneme",
+  "name": "translator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,5 +15,13 @@
     "request": "2.88.0"
   },
   "author": "Furkan Kaya",
-  "license": "ISC"
+  "license": "ISC",
+    "devDependencies": {
+    "@google-cloud/nodejs-repo-tools": "2.2.1",
+    "ava": "0.25.0",
+    "supertest": "3.0.0"
+  },
+  "engines": {
+    "node": "8.x.x"
+  }
 }
