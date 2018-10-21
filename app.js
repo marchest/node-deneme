@@ -15,5 +15,14 @@ app.use(bodyParser.urlencoded({extended:true}));
 var engine =require('./engine.js');
 app.use('/engine',engine);
 
+if (module === require.main) {
+  // [START server]
+  // Start the server
+  const server = app.listen(process.env.PORT || 8080, () => {
+    const port = server.address().port;
+    console.log(`App listening on port ${port}`);
+  });
+  // [END server]
+}
 
-app.listen(3001);
+module.exports = app;
