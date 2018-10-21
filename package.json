@@ -1,0 +1,19 @@
+{
+  "name": "node-deneme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+   "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "cookie-parser": "1.4.3",
+    "express": "4.16.4",
+     "jquery": "^3.3.1",
+    "jsdom": "^12.2.0",
+    "request": "2.88.0"
+  },
+  "author": "Furkan Kaya",
+  "license": "ISC"
+}
